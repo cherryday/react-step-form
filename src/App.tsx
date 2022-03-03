@@ -1,14 +1,17 @@
-import { SignUp } from './components/SignUp/SignUp'
-import { FormSteps } from './components/FormSteps/FormSteps'
+import { Route, Routes } from 'react-router-dom';
+import { SignUp } from './pages/SignUp/SignUp'
+import { FormSteps } from './pages/FormSteps/FormSteps'
+import { FinishRegister } from './pages/FinishRegister/FinishRegister'
 import styles from './App.module.css'
-import { FinishRegister } from './components/FinishRegister/FinishRegister'
 
 function App() {
   return (
     <div className={styles.app}>
-      <SignUp/>
-      <FormSteps/>
-      <FinishRegister/>
+      <Routes>
+        <Route path="/" element={<SignUp/>}></Route>
+        <Route path="/register" element={<FormSteps/>}></Route>
+        <Route path="/finish" element={<FinishRegister/>}></Route>
+      </Routes>
     </div>
   );
 }

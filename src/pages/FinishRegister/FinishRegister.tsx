@@ -1,6 +1,6 @@
 import { ReactComponent as LogoIcon } from '../../assets/icons/logo.svg'
 import GgImg from '../../assets/images/gg.png'
-import { UiButton } from '../UiButton/UiButton'
+import { UiButton } from '../../components/UiButton/UiButton'
 
 import styles from './FinishRegister.module.css'
 

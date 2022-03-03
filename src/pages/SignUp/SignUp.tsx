@@ -1,4 +1,5 @@
-import { UiButton } from '../UiButton/UiButton'
+import { Link } from 'react-router-dom'
+import { UiButton } from '../../components/UiButton/UiButton'
 import { ReactComponent as LogoIcon } from '../../assets/icons/logo.svg'
 import styles from './SignUp.module.css'
 
@@ -11,10 +12,12 @@ export const SignUp = (): JSX.Element => {
         <LogoIcon className={styles.logo}/>
         <h1 className={styles.title}>Create Account</h1>
         <p className={styles.subtitle}>Please register your account!</p>
-        <UiButton>Create Account</UiButton>
+        <Link to="/register">
+          <UiButton>Create Account</UiButton>
+        </Link>
         <div className={styles.footer}>
           <p className={styles.text}>Already have an Account?</p>
-          <a href="#" className={styles.link}>Sign In</a>
+          <a href="/" className={styles.link}>Sign In</a>
         </div>
       </div>
     </div>
