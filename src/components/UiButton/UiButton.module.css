@@ -1,0 +1,17 @@
+.button {
+  cursor: pointer;
+  height: 60px;
+  padding: 0 30px;
+  background: #EB3D35;
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: var(--font-weight-medium);
+  border: none;
+}
+
+.outlined {
+  color: #051655;
+  border: 1px solid #E5E4E1;
+  background-color: inherit;
+}

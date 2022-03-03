@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 40px 200px 140px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.logo {
+  margin-bottom: 130px;
+}
+
+.gg {
+  margin-bottom: 40px;
+}
+
+.title {
+  font-weight: var(--font-weight-medium);
+  font-size: 50px;
+  line-height: 56px;
+  color: #051655;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-weight: var(--font-weight-medium);
+  font-size: 25px;
+  line-height: 28px;
+  color: #051655;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 25px;
+  color: #747887;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 60px;
+}

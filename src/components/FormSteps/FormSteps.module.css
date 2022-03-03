@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 40px 200px 50px;
+}
+
+.logo {
+  margin-bottom: 90px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.button:first-child {
+  margin-right: 20px;
+}
