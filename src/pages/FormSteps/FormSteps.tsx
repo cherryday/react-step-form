@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { UiButton } from '../../components/UiButton/UiButton'
 import { Stepper } from '../../components/Stepper/Stepper'
 import { HubForm } from '../../components/HubForm/HubForm'
+import { ProfileForm } from '../../components/ProfileForm/ProfileForm'
 import { ObjectivesForm } from '../../components/ObjectivesForm/ObjectivesForm'
 import { ReactComponent as LogoIcon } from '../../assets/icons/logo.svg'
 import styles from './FormSteps.module.css'
@@ -13,7 +14,8 @@ export const FormSteps = (): JSX.Element => {
 
   const formList = [
     <HubForm/>,
-    <ObjectivesForm/>
+    <ObjectivesForm/>,
+    <ProfileForm/>
   ]
 
   const nextStep = () => {

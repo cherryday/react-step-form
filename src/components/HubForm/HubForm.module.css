@@ -1,0 +1,28 @@
+.wrapper {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 600px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #747887;
+}
+
+.h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 28px;
+  color: #051655;
+  font-weight: var(--font-weight-medium);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}

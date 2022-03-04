@@ -1,3 +1,4 @@
+import cn from 'classnames'
 import { ReactComponent as LogoIcon } from '../../assets/icons/logo.svg'
 import GgImg from '../../assets/images/gg.png'
 import { UiButton } from '../../components/UiButton/UiButton'
@@ -14,7 +15,7 @@ export const FinishRegister = (): JSX.Element => {
           alt="gg"
           className={styles.gg}
         />
-        <h1 className={styles.title}>Finish Your Registration</h1>
+        <h1 className={cn(styles.title, 'h1')}>Finish Your Registration</h1>
         <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <h3 className={styles.subtitle}>Why Connect My Google Account?</h3>
         <p className={styles.text}>Your contact and calendar data helps us schedule meetings and ensure that your matches are relevant (not matching you with people you already know, for instance).</p>

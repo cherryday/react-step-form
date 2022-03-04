@@ -1,4 +1,9 @@
 :root {
   --font-weight-normal: 400;
   --font-weight-medium: 500;
+
+  --color-dark-400: #051655;
+  --color-red-400: #EB3D35;
+  --color-grey-400: #E5E4E1;
+  --color-white: #fff;
 }

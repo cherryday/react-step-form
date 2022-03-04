@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.input {
+  height: 60px;
+  width: 460px;
+  border: 1px solid #E5E4E1;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--color-dark-400);
+  padding-left: 65px;
+}
+
+.input::placeholder {
+  color: #747887;
+}

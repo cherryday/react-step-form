@@ -2,8 +2,8 @@
   cursor: pointer;
   height: 60px;
   padding: 0 30px;
-  background: #EB3D35;
-  color: #FFFFFF;
+  background: var(--color-red-400);
+  color: var(--color-white);
   font-size: 22px;
   line-height: 24px;
   font-weight: var(--font-weight-medium);
@@ -11,7 +11,7 @@
 }
 
 .outlined {
-  color: #051655;
-  border: 1px solid #E5E4E1;
+  color: var(--color-dark-400);
+  border: 1px solid var(--color-grey-400);
   background-color: inherit;
 }

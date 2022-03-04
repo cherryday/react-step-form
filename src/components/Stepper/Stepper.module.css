@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 2px solid #E5E4E1;
+  border: 2px solid var(--color-grey-400);
   color: #B3B4BA;
 }
 
@@ -28,15 +28,15 @@
   display: block;
   height: 2px;
   width: 102px;
-  background-color: #E5E4E1;
+  background-color: var(--color-grey-400);
 }
 
 .stepActive {
-  background: #EB3D35;
-  color: #fff;
+  background: var(--color-red-400);
+  color: var(--color-white);
   border: none;
 }
 
 .stepActive:not(:first-child)::before {
-  background-color: #EB3D35;
+  background-color: var(--color-red-400);
 }

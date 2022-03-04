@@ -16,3 +16,8 @@ img {
 svg {
   display: block;
 }
+
+input, button {
+  font-family: inherit;
+  font-weight: inherit;
+}
