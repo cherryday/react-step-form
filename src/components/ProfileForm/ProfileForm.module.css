@@ -1,0 +1,71 @@
+.wrapper {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #747887;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  margin-right: 40px;
+  height: 360px;
+  width: 360px;
+  background-color: #F3F6F9;
+  border: 2px dashed #051655;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.selected .cardFile {
+  display: block;
+}
+
+.cardImg {
+  margin-bottom: 35px;
+}
+
+.cardText {
+  font-weight: var(--font-weight-medium);
+  font-size: 20px;
+  line-height: 22px;
+  color: #051655;
+}
+
+.cardInput {
+  display: none;
+}
+
+.cardFile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.socialTitle {
+  margin-bottom: 24px;
+  font-size: 25px;
+  line-height: 28px;
+  color: #051655;
+  font-weight: var(--font-weight-medium);
+}
+
+.socialInput {
+  margin-bottom: 10px;
+}
